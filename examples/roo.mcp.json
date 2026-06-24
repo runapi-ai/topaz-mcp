@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "topaz": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@runapi.ai/topaz-mcp"
+      ],
+      "env": {
+        "RUNAPI_API_KEY": "${RUNAPI_API_KEY}"
+      }
+    }
+  }
+}

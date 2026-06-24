@@ -1,0 +1,52 @@
+{
+  "catalog_models": [
+    "topaz-upscale-image",
+    "topaz-upscale-video"
+  ],
+  "actions": {
+    "topaz/upscale-image": {
+      "model": "Topaz",
+      "endpoint": "upscale_image",
+      "models": [
+        "topaz-upscale-image"
+      ],
+      "fields_by_model": {
+        "topaz-upscale-image": {
+          "upscale_factor": {
+            "enum": [
+              1,
+              2,
+              4,
+              8
+            ],
+            "required": true
+          },
+          "source_image_url": {
+            "required": true
+          }
+        }
+      }
+    },
+    "topaz/upscale-video": {
+      "model": "Topaz",
+      "endpoint": "upscale_video",
+      "models": [
+        "topaz-upscale-video"
+      ],
+      "fields_by_model": {
+        "topaz-upscale-video": {
+          "upscale_factor": {
+            "enum": [
+              1,
+              2,
+              4
+            ]
+          },
+          "source_video_url": {
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}

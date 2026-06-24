@@ -1,0 +1,27 @@
+{
+  "endpoints": {
+    "topaz-upscale-image/upscale_image": {
+      "unit_price_cents": 40,
+      "billing_config": {
+        "key": "upscale_factor",
+        "overrides": {
+          "1": 10,
+          "2": 10,
+          "4": 20,
+          "8": 40
+        }
+      }
+    },
+    "topaz-upscale-video/upscale_video": {
+      "unit_price_cents": 14,
+      "billing_config": {
+        "key": "upscale_factor",
+        "overrides": {
+          "1": 8,
+          "2": 8,
+          "4": 14
+        }
+      }
+    }
+  }
+}
