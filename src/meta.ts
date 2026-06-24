@@ -1,5 +1,5 @@
 export const META = {
   name: "@runapi.ai/topaz-mcp",
-  version: "0.1.1",
+  version: "0.1.4",
   lineSlug: "topaz"
 } as const;
