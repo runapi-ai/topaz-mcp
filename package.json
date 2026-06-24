@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/topaz-mcp",
-  "version": "0.1.0",
-  "description": "RunAPI MCP server for one model line: create tasks, poll status, and check pricing with one API key.",
+  "version": "0.1.1",
+  "description": "Topaz MCP server for RunAPI — create Topaz AI tasks (upscale image, upscale video), poll status, and check pricing across 2 models with one API key.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -27,7 +27,18 @@
     "runapi",
     "mcp",
     "model-context-protocol",
-    "ai"
+    "ai",
+    "topaz",
+    "topaz-mcp",
+    "topaz-ai",
+    "topaz-api",
+    "video-generation",
+    "ai-video",
+    "image-generation",
+    "ai-image",
+    "ai-upscaling",
+    "upscale-image",
+    "upscale-video"
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
