@@ -1,6 +1,6 @@
 {
   "name": "@runapi.ai/topaz-mcp",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "RunAPI Topaz MCP server for image and video generation: create tasks, poll results, and check pricing across 2 model variants from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
